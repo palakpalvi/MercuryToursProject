@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16222" started-at="2018-10-28T05:56:40Z" finished-at="2018-10-28T05:56:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16222" started-at="2018-10-28T05:56:40Z" finished-at="2018-10-28T05:56:56Z">
+      <class name="testCases.TC001">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:testCases.TC001@1ce92674]" name="startUp" is-config="true" duration-ms="8260" started-at="2018-10-28T05:56:40Z" finished-at="2018-10-28T05:56:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="tc001(java.lang.String, java.lang.String)[pri:0, instance:testCases.TC001@1ce92674]" name="tc001" duration-ms="6172" started-at="2018-10-28T05:56:49Z" data-provider="empLogin" finished-at="2018-10-28T05:56:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mercury]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mercury]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc001 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.TC001@1ce92674]" name="tearDown" is-config="true" duration-ms="1200" started-at="2018-10-28T05:56:55Z" finished-at="2018-10-28T05:56:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
